@@ -1,0 +1,67 @@
+/*
+	orange : #f96302
+	black : #272727
+	white : #ffffff
+	grey : #747474
+	border grey: #cccccc
+
+	heading 2
+	font: helvetica neue (using koulen)
+	weight: 400
+	size: 1.25 rem
+
+	paragraph
+	color : #272727
+	font: volte regular (using karla)
+	size: 1rem
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+	outline: none;
+}
+
+.image{
+	width: 100%;
+}
+
+#footer img{
+	max-width: 100%;
+	height:600px;
+}
+
+body {
+	font-family: 'Koulen', 'Helvetica';
+	font-size: 1.25 rem;
+}
+
+.ui-widget .ui-widget {
+	font-family: 'Koulen', 'Helvetica';
+	font-size: 1.25 rem;
+}
+
+.ui-tabs .ui-tabs-nav li{
+	font-family: 'Koulen', 'Helvetica';
+	font-size: 1.25 rem;
+}
+
+.ui-widget input{
+	font-family: 'Karla', sans-serif;
+}
+
+.ui-widget-content{
+	font-family: 'Karla', sans-serif;
+}
+
+form{
+	margin-bottom: -150px;
+}
+
+.error{
+	color: red;
+	font-size: .7rem;
+}
